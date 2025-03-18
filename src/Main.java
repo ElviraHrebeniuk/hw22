@@ -55,6 +55,9 @@ public class Main {
                 print(productList);
                 System.out.println("--------------");
             }
+            default -> {
+                return;
+            }
         }
     }
 
